@@ -1,0 +1,16 @@
+// Helper for css transition groups in Vue
+.fade {
+  &-enter-active,
+  &-leave-active {
+    transition: opacity $transition-fade-duration;
+  }
+
+  &-enter-active {
+    transition-delay: $transition-fade-duration;
+  }
+
+  &-enter,
+  &-leave-to {
+    opacity: 0;
+  }
+}

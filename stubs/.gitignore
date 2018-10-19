@@ -1,0 +1,74 @@
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/logs
+/public/hot
+/public/assets/css
+/public/assets/images
+/public/assets/scripts
+/public/media
+/public/mix-manifest.json
+/webpack/manifest
+/config/build.php
+Homestead.json
+Homestead.yaml
+.env
+.webpack_cache
+
+#######################
+### Compiled Source ###
+#######################
+bootstrap/compiled.php
+public/assets/scripts
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+################
+### Archives ###
+################
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.css
+
+#####################
+### Logs and Data ###
+#####################
+*.log
+*.sql
+*.sqlite
+
+##################
+### OS Helpers ###
+##################
+*.DS_Store
+*.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+###################
+### IDE Helpers ###
+###################
+.idea
+.phpstorm.meta.php
+_ide_helper.php
+
+####################
+### Distribution ###
+####################
+dist
+bin

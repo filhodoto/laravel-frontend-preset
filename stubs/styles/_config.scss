@@ -1,0 +1,7 @@
+// Import all configuration related files here
+@import "config/variables";
+@import "config/mixins/responsive";
+@import "config/mixins/font-gradient";
+@import "config/mixins/box-shadow";
+@import "config/mixins/aspect-ratio-bg";
+@import "config/extends/page";

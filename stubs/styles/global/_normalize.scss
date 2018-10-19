@@ -1,0 +1,27 @@
+// Normalize scss
+@import "../../../node_modules/normalize-scss/sass/normalize/import-now";
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+*:focus,
+*:hover {
+    outline: none;
+}

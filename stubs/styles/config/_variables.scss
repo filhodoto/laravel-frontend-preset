@@ -1,0 +1,48 @@
+// Body
+$body-bg: #ffffff;
+
+// Fonts
+$header-font: 'Halant', sans-serif;
+$body-font: 'Nunito', sans-serif;
+$body-font-secondary: 'Oswald', sans-serif;
+
+// Colors
+$color-primary: #182B33;
+$color-secondary: #555555;
+$color-light: #f9f9f9;
+$color-dark: #555555;
+$color-white: #ffffff;
+$color-black: #000000;
+
+
+// Margins
+$margin-xsmall: 5px;
+$margin-small: 10px;
+$margin-medium: 20px;
+$margin-large: 30px;
+$margin-xlarge: 40px;
+
+// Padding's
+$padding-xsmall: 5px;
+$padding-small: 10px;
+$padding-medium: 20px;
+$padding-large: 30px;
+$padding-xlarge: 40px;
+
+// Breakpoints
+$breakpoint-xsmall: 480px;
+$breakpoint-small: 640px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 1024px;
+$breakpoint-xlarge: 1280px;
+
+// Transitions
+$transition-fade-duration: 0.3s;
+
+// Container
+$container-width: 100%;
+$container-height: auto;
+$container-max-width: 1000px;
+
+// Header
+$header-bg: $color-light;

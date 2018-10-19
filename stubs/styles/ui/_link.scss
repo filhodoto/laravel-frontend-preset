@@ -1,0 +1,9 @@
+// Default link styling, directly on the element
+.link {
+  color: $color-primary;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

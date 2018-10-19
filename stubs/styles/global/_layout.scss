@@ -1,0 +1,19 @@
+// Styles for global (root) elements such as body or html.
+html, body {
+  height: 100%;
+}
+
+main {
+  box-sizing: border-box;
+}
+
+body {
+  background: $color-primary;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

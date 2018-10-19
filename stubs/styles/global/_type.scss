@@ -1,0 +1,35 @@
+// Add styles here that relate to type settings
+body {
+  font-family: $body-font;
+  color: $color-dark;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.heading-1 {
+  font-family: $header-font;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 120%;
+  color: $color-primary;
+  margin: 0 0 $margin-medium;
+}
+
+.heading-2 {
+  font-family: $header-font;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 21px;
+  color: $color-primary;
+  margin: 0 0 $margin-small;
+}
+
+.heading-3 {
+  font-family: $header-font;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 21px;
+  color: $color-primary;
+  margin: 0 0 $margin-xsmall;
+  font-style: italic;
+}

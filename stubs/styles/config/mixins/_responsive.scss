@@ -1,0 +1,14 @@
+// Mixin for responsive layouts.
+@mixin respond-to($name) {
+    $media: (
+        'xsmall': 'screen and (mix-width: #{$breakpoint-xsmall})',
+        'small': 'screen and (mix-width: #{$breakpoint-small}))',
+        'medium': 'screen and (mix-width: #{$breakpoint-medium})',
+        'large': 'screen and (mix-width: #{$breakpoint-large})',
+        'xlarge': 'screen and (min-width: #{$breakpoint-xlarge})',
+    );
+
+    @media #{map-get($media, $name)} {
+        @content;
+    }
+}
